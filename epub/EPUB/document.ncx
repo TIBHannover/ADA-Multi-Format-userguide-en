@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:fidus" content="109" />
+  </head>
+  <docTitle>
+    <text>Quick Start Guide</text>
+  </docTitle>
+  <navMap>
+
+    <!-- 2.01 NCX: playOrder is optional -->
+    <navPoint id="t1">
+      <navLabel><text>Titelseite</text></navLabel>
+      <content src="titlepage.xhtml#title" />
+    </navPoint>
+    <navPoint id="t_1_0-1">
+      <navLabel><text>Welcome to the 'Publishing Pipeline!</text></navLabel>
+      <content src="document-1.xhtml#_1_0" />
+      <navPoint id="tH4632171-1">
+        <navLabel><text>What you'll need before you start</text></navLabel>
+        <content src="document-1.xhtml#H4632171" />
+        <navPoint id="tH5614484-1">
+          <navLabel><text>For contributors</text></navLabel>
+          <content src="document-1.xhtml#H5614484" />
+        </navPoint>
+        <navPoint id="tH9374516-1">
+          <navLabel><text>For publication managers</text></navLabel>
+          <content src="document-1.xhtml#H9374516" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="tH584803-1">
+        <navLabel><text>Digital sovereignty</text></navLabel>
+        <content src="document-1.xhtml#H584803" />
+      </navPoint>
+      <navPoint id="tH2087393-1">
+        <navLabel><text>Pipeline features</text></navLabel>
+        <content src="document-1.xhtml#H2087393" />
+      </navPoint>
+      <navPoint id="tH7757657-1">
+        <navLabel><text>What you will learn here:</text></navLabel>
+        <content src="document-1.xhtml#H7757657" />
+      </navPoint>
+      <navPoint id="tH3159430-1">
+        <navLabel><text>The steps used to create a publication</text></navLabel>
+        <content src="document-1.xhtml#H3159430" />
+      </navPoint>
+      <navPoint id="tH4820656-1">
+        <navLabel><text>Publication data structure</text></navLabel>
+        <content src="document-1.xhtml#H4820656" />
+      </navPoint>
+      <navPoint id="tH4870876-1">
+        <navLabel><text>System configurations and setting</text></navLabel>
+        <content src="document-1.xhtml#H4870876" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t0-2">
+      <navLabel><text>Sections</text></navLabel>
+      <content src="document-2.xhtml" />
+      <navPoint id="t_2_0-2">
+        <navLabel><text>Step 1: Make a Publication Git Repository and Website</text></navLabel>
+        <content src="document-2.xhtml#_2_0" />
+        <navPoint id="tH4018151-2">
+          <navLabel><text>About</text></navLabel>
+          <content src="document-2.xhtml#H4018151" />
+        </navPoint>
+        <navPoint id="tH1473428-2">
+          <navLabel><text>Step-by-step guide</text></navLabel>
+          <content src="document-2.xhtml#H1473428" />
+          <navPoint id="tH2479402-2">
+            <navLabel><text>Create a repo</text></navLabel>
+            <content src="document-2.xhtml#H2479402" />
+          </navPoint>
+          <navPoint id="tH9225084-2">
+            <navLabel><text>Create a website</text></navLabel>
+            <content src="document-2.xhtml#H9225084" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="tH4342812-2">
+          <navLabel><text>Step 1 completion: What's next?</text></navLabel>
+          <content src="document-2.xhtml#H4342812" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="t_3_0-3">
+        <navLabel><text>Step 2: Create a Book Project in Fidus Writer</text></navLabel>
+        <content src="document-3.xhtml#_3_0" />
+        <navPoint id="tH4535132-3">
+          <navLabel><text>What's covered here</text></navLabel>
+          <content src="document-3.xhtml#H4535132" />
+        </navPoint>
+        <navPoint id="tH4439255-3">
+          <navLabel><text>1. Create a 'personal' folder</text></navLabel>
+          <content src="document-3.xhtml#H4439255" />
+        </navPoint>
+        <navPoint id="tH8214025-3">
+          <navLabel><text>2. Create placeholder documents</text></navLabel>
+          <content src="document-3.xhtml#H8214025" />
+          <navPoint id="tH7006285-3">
+            <navLabel><text>How to create documents</text></navLabel>
+            <content src="document-3.xhtml#H7006285" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="tH642923-3">
+          <navLabel><text>3. Create a Fidus Writer book</text></navLabel>
+          <content src="document-3.xhtml#H642923" />
+        </navPoint>
+        <navPoint id="tH8269040-3">
+          <navLabel><text>4. Connecting your book to a Git repo</text></navLabel>
+          <content src="document-3.xhtml#H8269040" />
+        </navPoint>
+        <navPoint id="tH6619707-3">
+          <navLabel><text>Next steps</text></navLabel>
+          <content src="document-3.xhtml#H6619707" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="t_4_0-4">
+        <navLabel><text>Step 3: Invite Your Team</text></navLabel>
+        <content src="document-4.xhtml#_4_0" />
+        <navPoint id="tH3777938-4">
+          <navLabel><text>1. Adding users as Contacts</text></navLabel>
+          <content src="document-4.xhtml#H3777938" />
+        </navPoint>
+        <navPoint id="tH9350209-4">
+          <navLabel><text>2. Giving users access to edit documents</text></navLabel>
+          <content src="document-4.xhtml#H9350209" />
+        </navPoint>
+        <navPoint id="tH6251349-4">
+          <navLabel><text>3. Sharing your book for view only and preview download</text></navLabel>
+          <content src="document-4.xhtml#H6251349" />
+        </navPoint>
+        <navPoint id="tH5018454-4">
+          <navLabel><text>Adding reviewer and editors to documents</text></navLabel>
+          <content src="document-4.xhtml#H5018454" />
+        </navPoint>
+        <navPoint id="tH4422568-4">
+          <navLabel><text>Next steps</text></navLabel>
+          <content src="document-4.xhtml#H4422568" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="t_5_0-5">
+        <navLabel><text>Step 4: Publish as Multi‑format!</text></navLabel>
+        <content src="document-5.xhtml#_5_0" />
+        <navPoint id="tH6462932-5">
+          <navLabel><text>Output formats we'll cover here</text></navLabel>
+          <content src="document-5.xhtml#H6462932" />
+        </navPoint>
+        <navPoint id="tH5954601-5">
+          <navLabel><text>Preview outputs</text></navLabel>
+          <content src="document-5.xhtml#H5954601" />
+        </navPoint>
+        <navPoint id="tH2238943-5">
+          <navLabel><text>Applying layout design styles and Git export</text></navLabel>
+          <content src="document-5.xhtml#H2238943" />
+        </navPoint>
+        <navPoint id="tH9093471-5">
+          <navLabel><text>Exporting PDF to Git</text></navLabel>
+          <content src="document-5.xhtml#H9093471" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="t0-6">
+      <navLabel><text>Publication Info</text></navLabel>
+      <content src="document-6.xhtml" />
+      <navPoint id="t_6_0-6">
+        <navLabel><text>Imprint</text></navLabel>
+        <content src="document-6.xhtml#_6_0" />
+      </navPoint>
+      <navPoint id="t2">
+        <navLabel><text>Copyright</text></navLabel>
+        <content src="copyright.xhtml#copyright" />
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
