@@ -2,6 +2,5 @@
   "__comment": "Set values to false if no link should be created.",
   "repoURL": "https://github.com/mrchristian/css-test/",
   "repoBranch": "main",
-  "vivlioURL": "https://vivliostyle.org/viewer/",
-  "podURL": "https://doabooks.org/"
+  "vivlioURL": "https://vivliostyle.org/viewer/"
 }
