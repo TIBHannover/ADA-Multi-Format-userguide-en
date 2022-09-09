@@ -288,8 +288,7 @@ color: var(--base-color);
 .content .markdown-section .tocpage ol li::before {
   content: '\f061';
   font: var(--fa-font-solid);
-  font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.7;
   float: left;
   margin-left: -1.5em;
 }
@@ -365,7 +364,7 @@ color: var(--base-color);
 .content .markdown-section section.fnlist {
   display: block!important;
   font-size: 0.9rem;
-  margin: 1rem 0 2rem 0;
+  margin: 2rem 0 3rem 0;
 }
 
 .content .markdown-section section.fnlist p, .content .markdown-section  .footnote-counter {
@@ -374,7 +373,8 @@ color: var(--base-color);
 }
 
 .content .markdown-section  .article-abstract p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 1.6;
 }
 .content .markdown-section  .footnote-counter::before {
       content: attr(data-book-counter); /* or data-chapter-counter */
