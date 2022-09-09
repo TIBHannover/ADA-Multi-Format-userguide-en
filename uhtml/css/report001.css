@@ -1199,8 +1199,20 @@ ol.upper-latin {
   line-height: 1.2em;
 }
 .epub .figure-cat-figure + span::before, .epub .figure-cat-photo + span::before, .epub .figure-cat-table + span::before {
-    content: '';
+    content: ' ';
 }
+
+section[role=doc-endnotes]:first-of-type::before {
+    content: 'Footnotes';
+    display: block;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.395rem;
+    color:#f68b1e;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    height: 2em;
+    margin-bottom: 1em;
+  }
 /*.epub nav li a:hover {
   border-bottom: 1px solid;
 }*/
