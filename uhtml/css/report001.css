@@ -299,7 +299,6 @@ nav {
   page-break-before: always;
   width: 80%;
   font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: 500;
 }
 nav ol {
   margin-top: 2em;
@@ -325,6 +324,9 @@ nav li a::before {
   content: "";
   order: 1;
  flex: auto;
+}
+nav li {
+  font-weight: 500;
 }
 
 nav li ol {
@@ -1151,6 +1153,27 @@ ol.upper-latin {
   @page {
     size: 210mm 297mm;
   }
+
+}
+
+@media screen and (max-width: 768px) {
+    .article-body, section.fnlist , h1.article-bibliography-header, div.csl-bib-body, .article-body > figure.image-width-100, .article-body > table.table-100.table-fixed, blockquote  {
+     margin-left: 0px!important;
+    }
+    .article-body {
+      margin-top: 15px;
+    }
+    .article-title, h1.part, nav::before {
+     max-width: 100%;
+     font-size: 40px;
+    }
+    nav {
+     width: 100%;
+     font-size: 0.7rem;
+    }
+    nav li a {
+     line-height: 1.2em;
+    }
 
 }
 /* EPUB overwrites */
