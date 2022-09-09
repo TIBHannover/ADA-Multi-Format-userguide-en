@@ -24,7 +24,7 @@
     --heading-h2-color:  #f68b1e;
     --heading-h3-border-style: solid;
     --heading-h3-font-size: 1.6rem; /*var(--font-size-l)*/
-    --heading-h3-font-weight: 500;
+    --heading-h3-font-weight: 400;
     --heading-h4-border-style: solid;
     --heading-h4-font-size: 1.3rem; /*var(--font-size-m)*/
     --heading-h4-font-weight: 500;
@@ -379,7 +379,7 @@ color: var(--base-color);
   }
 
   section[role=doc-footnote]:first-of-type::before {
-      content: 'Footnote';
+      content: 'Footnotes';
       display: block;
       font-size: 0.9rem;
       border-bottom: 1px solid black;
