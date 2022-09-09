@@ -106,6 +106,10 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
     font-style: normal;
     src: local('Fira Sans Condensed ExtraLight'), local('FiraSansCondensed-ExtraLight'), url(media/FiraSansCondensed-ExtraLight.ttf) format('truetype');
 }
+*{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+}
 @page {
   size: 210mm 297mm;
   margin-top: 20mm;
@@ -143,9 +147,8 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
   @bottom-left {
     content: counter(page) " "" | "" "  env(doc-title);
     font-family: "Fira Sans", sans-serif;
-    font-weight: normal;
-    font-size: 12px;
     font-weight: 400;
+    font-size: 12px;
     color: #000;
     letter-spacing: 0.1pt;
     /*word-spacing: 1px;*/
@@ -173,9 +176,8 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
   @bottom-right {
     content: string(chapter-title, start) " "" | "" " counter(page);
     font-family: "Fira Sans", sans-serif;
-    font-weight: normal;
-    font-size: 12px;
     font-weight: 400;
+    font-size: 12px;
     color: #000;
     letter-spacing: 0.1pt;
     background-image: linear-gradient(#f68b1e,#f3820e);
@@ -193,9 +195,17 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
   @top-left { content: normal; }
   @top-right { content: normal; }
 }
-
-.article-part.article-title {
-  page-break-before: always!important;
+html {
+  font-size: 18px;
+  color: #000;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+html body { background-color: transparent!important;}
+body {
+  counter-reset: chapter figure-cat-figure figure-cat-photo figure-cat-table footnote-counter footnote-marker-counter;
+  overflow-wrap: break-word;
 }
 
 html,
@@ -273,20 +283,6 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
-html {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: black;
-  text-rendering: optimizeLegibility;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-html body { background-color: transparent!important;}
-body {
-  counter-reset: chapter figure-cat-figure figure-cat-photo figure-cat-table footnote-counter footnote-marker-counter;
-  overflow-wrap: break-word;
-}
 .copyrightpage p {
   font-family: "Fira Sans", sans-serif;
   color: #000;
@@ -301,7 +297,7 @@ nav {
   margin: 2em 0;
   break-before: always;
   page-break-before: always;
-  width: 70%;
+  width: 80%;
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 500;
 }
@@ -309,7 +305,6 @@ nav ol {
   margin-top: 2em;
   list-style: none;
 }
-
 nav li a {
   display: inline-flex;
   width: 100%;
@@ -321,9 +316,9 @@ nav li a {
   border-bottom: 1px solid;
   line-height: 1.8em;
 }
-nav li a:hover {
+/*nav li a:hover {
   border-bottom: 0px;
-}
+}*/
 nav li a::before {
   margin-right: 0.5em;
   /*border-bottom: 1px dotted;*/
@@ -414,7 +409,12 @@ h4.bookversion {
   font-weight: 200!important;
 }
 
-h1.part { page-break-before: always!important; }
+h1.part {
+  page-break-before: always!important;
+  page-break-after: always!important;
+  color: #000;
+  margin-top:0;
+}
 h1.part:before {
   display: block;
   text-transform: none;
@@ -427,6 +427,9 @@ h1.part:before {
   content:"";
 }
 
+.article-part.article-title {
+  page-break-before: always!important;
+}
 .article-title {
   font-family: "Fira Sans Condensed", sans-serif;
   string-set: chapter-title content(text);
@@ -477,6 +480,12 @@ h1.part:before {
   font-weight: 400;
   margin: 10px 0 80px 0;
 }
+.article-abstract p {
+  font-size:  1.2rem;
+  font-weight: 400;
+  margin: 10px 0 80px 0;
+}
+
 
  .article-body {
    margin-top: -15px;
@@ -648,7 +657,7 @@ blockquote {
   vertical-align: baseline;
   margin-top: 12pt;
   margin-bottom: 12pt;
-  margin-left: -100px;/* 3.3241rem*/
+  margin-left: 20px;/* 3.3241rem*/
   padding-left: 5px;
   margin-right: 10px;
 
@@ -670,7 +679,6 @@ blockquote p {
   font-family: inherit;
   text-align: left;
   font-weight: 200;
-  font-size: 90%;
   line-height: 1.37;
   font-style: italic;
 }
@@ -692,7 +700,7 @@ h5,
 h6 {
   font-family: "Fira Sans", sans-serif;
   margin-top: 1.5em;
-  color: black; /*rgb(25,43,83);*/
+  color: #000; /*rgb(25,43,83);*/
 }
 
 h1 {
@@ -726,7 +734,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem; /* 1.209rem */
+  font-size: 1.18rem; /* 1.209rem */
   font-family: "Fira Sans", sans-serif;
   margin-top: 17pt;
   page-break-inside: avoid;
@@ -736,7 +744,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.05rem; /* 1.023rem */
+  font-size: 1.01rem; /* 1.023rem */
   font-family: "Fira Sans", sans-serif;
   margin-top: 15pt;
   margin-bottom: 9pt;
@@ -748,7 +756,7 @@ h4 {
 h5 {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
-  font-size: 1rem; /* 0.930rem*/
+  font-size: 0.97rem; /* 0.930rem*/
   margin-top: 18px;
   margin-bottom: 5pt;
   page-break-inside: avoid;
@@ -758,7 +766,7 @@ h5 {
 h6 {
   font-family: "Fira Sans", sans-serif;
   font-weight: 600;
-  font-size: 0.930rem; /* 0.930rem*/
+  font-size: 0.89rem;
   margin-top: 20pt;
   margin-bottom: 5pt;
   page-break-inside: avoid;
@@ -786,7 +794,7 @@ hr.br { border:0; height: 0px; }
 .footnotes ol li p a {
   text-wrap: word-break;
 }
-.footnote-counter { font-weight: 700;}
+.footnote-counter {font-size: 12px; font-weight: 600;}
 
 /*li[id*="fn"] {
   text-indent: 0;
@@ -808,7 +816,7 @@ hr.br { border:0; height: 0px; }
 
 /*epub*/
 .footnote-content {
-  color: black;
+  color: #000;
   text-indent: 0;
   font-size: 0.7rem;
   font-family: "Fira Sans", sans-serif;
@@ -903,12 +911,12 @@ ul.dashed > li:before {
   font-size: 120%;
   font-weight: 700;
 }
-#page-navigation ol {
+/*#page-navigation ol {
     margin: 0;
     padding: 0;
     list-style-type: decimal;
     float: left;
-}
+}*/
 
  .article-body ol {
   display: block;
@@ -1071,7 +1079,7 @@ table + p + p {
 ul.numeric-decimals { counter-reset:section -1; list-style-type:none; list-style-position: outside; padding-left: 0; font-size: 9pt;}
 ul.numeric-decimals li { list-style-type:none;
   margin-top: 0.3em;
-  color: black;
+  color: #000;
   margin-left: 0;
   margin-left: 0;
   text-indent: 0;
@@ -1164,6 +1172,6 @@ ol.upper-latin {
 .epub nav li a {
   line-height: 1.2em;
 }
-.epub nav li a:hover {
+/*.epub nav li a:hover {
   border-bottom: 1px solid;
-}
+}*/
