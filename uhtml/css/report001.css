@@ -108,7 +108,6 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
 }
 *{
   font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
 }
 @page {
   size: 210mm 297mm;
@@ -197,6 +196,7 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
 }
 html {
   font-size: 18px;
+  font-weight: 300;
   color: #000;
   text-rendering: optimizeLegibility;
   overflow-wrap: break-word;
@@ -291,7 +291,7 @@ nav::before {
   content: "Contents";
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 55px;
-  color: red; /*#f68b1e*/
+  color: blue; /*#f68b1e*/
   font-weight: 600;
 }
 nav {
