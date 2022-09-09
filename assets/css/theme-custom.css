@@ -259,8 +259,7 @@ color: var(--base-color);
 .sidebar-nav #toc ol li::before {
   content: '\f061';
   font: var(--fa-font-solid);
-  line-height: 2;
-  font-weight: 900;
+  line-height: 1.8;
   float: left;
   margin-left: -1.5em;
 }
@@ -280,6 +279,7 @@ color: var(--base-color);
 
 .content .markdown-section .tocpage a {
   text-decoration: none!important;
+  border-bottom: none !important;
   font-size: 1rem;
 }
 .content .markdown-section .tocpage a:visited {
