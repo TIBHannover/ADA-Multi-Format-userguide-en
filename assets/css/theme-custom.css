@@ -207,8 +207,8 @@ border: none;
   line-height: 1.6rem;
 }
 .content .markdown-section a {
-  text-decoration: underline !important;
-  border-bottom: none!important;
+  /*text-decoration: underline !important;*/
+  border-bottom: 1px solid !important;
 }
 
 .content .markdown-section blockquote:before {
