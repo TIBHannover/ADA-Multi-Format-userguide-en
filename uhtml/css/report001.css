@@ -1180,6 +1180,10 @@ ol.upper-latin {
    margin-top: 15px;
  }
 
+ .epub .article-body p {
+   text-align: left;
+ }
+
  .epub .article-body, .epub section.fnlist , .epub h1.article-bibliography-header, .epub div.csl-bib-body, .epub .article-body > figure.image-width-100, .epub .article-body > table.table-100.table-fixed, .epub blockquote  {
   margin-left: 0px!important;
 }
@@ -1193,6 +1197,9 @@ ol.upper-latin {
 }
 .epub nav li a {
   line-height: 1.2em;
+}
+.epub .figure-cat-figure + span::before, .epub .figure-cat-photo + span::before, .epub .figure-cat-table + span::before {
+    content: '';
 }
 /*.epub nav li a:hover {
   border-bottom: 1px solid;
