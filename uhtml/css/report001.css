@@ -291,7 +291,8 @@ nav::before {
   content: "Contents";
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 55px;
-  color:#f68b1e;
+  color: red; /*#f68b1e*/
+  font-weight: 600;
 }
 nav {
   margin: 2em 0;
