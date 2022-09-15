@@ -568,6 +568,10 @@ p {
   /*word-spacing: 0.2pt;*/
   orphans: 2;
   widows: 2;
+  -webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;	
 }
 
 p + p {
