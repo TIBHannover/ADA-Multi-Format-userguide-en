@@ -1,6 +1,6 @@
 {
   "__comment": "Set values to false if no link should be created.",
-  "repoURL": "https://github.com/mrchristian/css-test/",
+  "repoURL": "https://github.com/mrchristian/guide-en/",
   "repoBranch": "main",
   "vivlioURL": "https://vivliostyle.org/viewer/"
 }
