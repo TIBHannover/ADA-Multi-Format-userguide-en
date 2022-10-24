@@ -1,275 +1,252 @@
 \documentclass{article}
 
 \usepackage{caption}
-\usepackage{tabu}
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
 \begin{document}
 
-\title{Step 4: Publish as Multi‑format!}
+\title{Step 2: Create a Book Project in Fidus Writer}
 
 \maketitle
 
 
-What is covered in the quick start guide for multi-format publishing.
+The book project in Fidus Writer will act as an empty container for your publication, later on you can change all the file names and book information to reflect your books title and content. You can also add and remove documents at any time.
 
 
-For users of the system you will only need to select your layout design style from the available library of style and click output.
+\subsection{What's covered here}\label{H4535132}
+
 
 \begin{enumerate}
-\item First the system can create many outputs from one source as 'Publication Ready Outputs' (PROs)\protect\footnotemark{}, as well as output additional interoperable and machine readable formats. 
+\item Create a 'personal' folder (only you see this - it's not shared) for your book documents.
 
 
-\item The system can apply pre-made reusable templates of \textbf{'layout design styles'} with automate machine typesetting.
+\item Make three placeholder documents for your book parts: Front matter; Section 1, and; Back matter.
 
 
-\item Save out styled output formats to Git at the push of a button, or preview the outputs direct from the system. Note the PDF format needs to be saved locally and then uploaded to Git (this will be automated in the near future, Sept 2022).
+\item Add your documents to a Fidus Writer Book - a collation of book documents.
 
 
-\end{enumerate}\addtocounter{footnote}{-1}\stepcounter{footnote}
-\footnotetext{A Publication Ready Output (PRO) means that the format is ready for professional publishing, including typesetting, metadata, and other formatting and settings. Many systems can save files in a format, for example as HTML, or PDF - but it does not mean it can be used professionally. Microsoft Word can save as HTML or PDF but it doesn't make the formatted files into finished publications ready for distribution.}
-
-\subsection{Output formats we'll cover here}\label{H6462932}
+\item Connecting your book to a Git repo.
 
 
+\end{enumerate}
 
-Other format outputs are listed in the System Configurations and Settings section.
+In a later step, sharing the publication with your team will be covered.
+
+
+Complete publication configuration details can be found in the pipeline manual.
+
+
+\subsection{1. Create a 'personal' folder}\label{H4439255}
+
+
+
+Here you will create a folder and after this create your three documents in the folder. To start with you need to be in the Document area of the website. 
+
+
+At the top of the page in the secondary menu, click on 'Create New Folder' and give the folder a name.
+
+\begin{figure}
+\scaledgraphics{8c499ef1-2708-4cab-a7c0-7b428719cf92.png}{1}
+\caption*{Photo 1: Document folder creation - add folder, name, and save}\label{F89073221}
+\end{figure}
+
+
+Now you will have an empty folder. If no documents are made in the folder, and it is left empty the folder will not be saved when you navigate away.
+
+
+\subsection{2. Create placeholder documents }\label{H8214025}
+
+
+
+We will now create three documents in the folder you have just created. These are the placeholder document examples you will make:
 
 \begin{itemize}
-\item Website
+\item Front Matter: Where you will add imprint, contributor information, acknowledgements, etc.
 
 
-\item Paginated Web
+\item Section 1: A top level part of a book as section or chapter
 
 
-\item PDF
-
-
-\item Print-on-demand (PDF)
-
-
-\item e-Book
-
-
-\end{itemize}
-\begin{table}
-\caption*{Table 1: Starter output formats. More formats are available but to start with we'll cover the set below.}\label{T34310601}
-
-\begin{tabu} to \textwidth { |X|X|X|X|X|X| }
-\hline
-
-
-
-\textbf{Formats >>>} & Website & Paginated Web & PDF & Print-on-Demand (PDF) & e-Book
- \\
-
-
-\textbf{Examples} & Template (to be provided) LINK & - & - & - & -
- \\
-
-
-\textbf{Features} & Mobile first responsive & Fixed page & Screen PDF (symmetrical margins) & Print from one copy at a time. (recto - verso margins) & Use on e-Readers and distribute through book trade.
- \\
-
-
-\textbf{Running header / footer} & Place in left menu & yes & yes &  & n /a
- \\
-
-
-\textbf{Date (custom formats)} & Place in left menu & yes & yes &  & Inline
- \\
-
-
-\textbf{Version (From Fidus book version No.)} & Place in left menu & yes & yes &  & Inline
- \\
-
-
-\textbf{Comments} &  &  &  &  & 
- \\
-
-
-\textbf{Fidus exports used to make output formats.}  & UHTML\footnote{UHTML - This stands for unified HTML. The Fidus exporter concatonates all the Document HTML files into one single HTML file.} & UHTML & PDF & PDF + Cover PDF (made seperately)\footnote{Cover PDF. Covers for print-on-demand (PoD) need to be be made seperately at present due to different requirements made by PoD printers.} & EPUB
- \\
-\hline
-
-\end{tabu}\end{table}
-
-
-\subsection{Preview outputs}\label{H5954601}
-
-
-
-You can download any of your outputs locally from the book dialogues window.
-
-
-See notes on PDF export below.
-
-
-PIC 
-
-
-\subsection{Applying layout design styles and Git export}\label{H2238943}
-
-
-
-1. Navigate to the book area of the site and here click on your book to open its dialog box.
-
-
-PIC book area
-
-
-PIC book dialogue
-
-
-2. Choose your book \textbf{'layout design style'. }From the 'Print / PDF' tab you need to choosen your book style. As an example your can use 'Report 001' for an DIN A4 orientated layout style. Choosing a style will typeset all your outputs and you can change style at any time, or add and modify styles.
-
-
-For your e-book you will need to add cover artwork in the Epub tab of your book information. You can upload a image file here. The artwork can be from the cover of your PDF or from any other source. Use a JPEG file at a size of 2560 px x 1600 px or close to this. E-book platforms request different sizes, here we have used Amazon Kindle sizes as of January 2022.
-
-
-2. In the book dialogue box select the tab on the right Git repository.
-
-
-3. In the Git repository tab slect the following: the reposity you want to save to (this will already be selected if you used the earlier guide setup); the output formats you want to use, and then from the export button bottom right select 'Export to Git repository'.
-
-
-PIC Git settings - hightlight 3 options from above
-
-
-PIC Export to Git repository - selection
-
-
-4. A Git dialogue will now appear called 'Commit message'. This is a note about the export you will make to Git and it will appear in the file listing for this git export. The pupose of the note is to inform other team members or Git users about your export, for example what kind of updates were made. A Commit message should be informative and you can pick your own style, noting these may be public if the Gitrepo is public.   
-
-
-Click save and the export will start. The system will give you updates on the progress bottom right.
-
-
-PIC Git export dialogue  'Commit message'
-
-
-PIC Progress messages.
-
-
-4. You can now save your book settings in the book dialogue box.
-
-
-PIC book dialogue box.
-
-
-5. Your export is now complete and your publication will now be on Git.
-
-
-PIC Git - formats
-
-
-PIC website 
-
-
-From the Git export you can either have the Git content be public or private. Additionally you can manually or automatically have content distributed to other storage locations or systems.
-
-
-\subsection{Exporting PDF to Git}\label{H9093471}
-
-
-
-PDF outputs need to be saved locally and then uploaded to Git. 
-
-
-Here we will create our local PDF from the browser, save it locally and then log onto Git in the browser and upload the PDF.
-
-
-1. In the book dialogue box select select print/pdf export.
-
-
-PIC export as PDF button.
-
-
-2. Now we will have your browser Print / PDF export dialogue box appear and there are some settings that need to be checked before we save the PDF file to your computer. 
-
-
-a. Set output as PDF.
-
-
-b. Set margin to none.
-
-
-c. have include background graphics checked as on.
-
-
-Now click save and name the PDF 'book.pdf'. It is important to use this naming as Git then recognises the PDF and adds it to the website it makes with Git Pages. Save the file locally.
-
-
-PIC PDF output box
-
-
-3. Now upload the file to Git. Navigate to your repo in your browser, log into Git.
-
-
-PIC upload to Git
-
-
-Now you are at your repo's top level view you can upload the book.pdf file. Click add file top right, select your book.pdf file, add a 'commite message', and click upload. Your book.pdf file need to be in the top level of your repo. See the screenshot below.
-
-
-The process is now complete and shortly the the PDF will appear in your website top menu.
-
-
-PIC website PDF menu.
-
-
-\subsection{Multi-format publishing configurations}\label{H6290333}
-
-
-
-You can output as wide variety of Publication Ready Output formats as well as interoperable formats for a number of different uses, as well as the main source files from Fidus Writer as JSON files.
-
-
-To read more about other formats and advanced settings see the System Configurations and Settings guide section.
-
-
-\subsubsection{Recommended minimum default output}\label{H2167774}
-
-
-
-Outputting a website, paginated web version, and PDF will be enough for readers. For this setting choose: UHTML, PDF as output types and you will have all you need for these outputs.
-
-
-\subsubsection{Creating print-on-demand publications}\label{H6991098}
-
-
-
-The full process for print-on-demand (PoD) outputs is outside of the scope of this guide, but here is an outline of the steps involved.
-
-
-As an introduction to PoD this is a print process where you can deposit your book with a printer who will make the book available to customers worldwide on the web via book retail websites and when the customer orders a book it is printed as an individual copy locally and shipped to them. As the publisher you do not have to pay for the printing or shipping, insteads this is deducted form the customer payment. As the publisher you are compensated for the sale, minus the book costs. You can also make your own bulk orders as the wholesale print cost.
-
-
-PoD can also be used for private publication only used internally too.
-
-
-You will need an ISBN number to distribute the publication. You do not need an ISBN if you use PoD for private orders with books you do not publically distribute.
-
-
-\subsubsection{Steps to enable Print-on-demand}\label{H855085}
-
-
-\begin{itemize}
-\item Create an account with a PoD provider like Ingram Lightning Source for professional PoD or Ingram Spark for one-off self publishing.
-
-
-\item Make a book cover and upload your bookblock made in the PoD system.
-
-
-\item Set the sales price. The price can allow a surplus, or be set to break even, or even be subsidised. 
-
-
-\item Publish. Your book will then go live on many retailers and you are compensated for sales monthly. 
+\item Back Matter: This can contain appendices, glossaries, or abbreviations, etc.
 
 
 \end{itemize}
 
+\subsubsection{How to create documents}\label{H7006285}
 
 
 
+In the sub-menu below Documents select 'Create new document' and choose \textbf{'Book Default'} document template. If you are working on a special book or publication series you might use a different document template. Consult the publication manager for guidance.
 
+
+Here you will add three documents as placeholders. These are added, so you can configure your book basics, names and documents can be changed or deleted later. Make three documents with these name: Front Matter; Section 1, and; Back Matter.
+
+\begin{figure}
+\scaledgraphics{c08856bb-6601-4f76-9196-f85fd52b9756.png}{1}
+\caption*{Photo 2: Create documents and use a document template}\label{F85303861}
+\end{figure}
+
+
+1. Create new document, 2. Select the Document Template, 3. Add document title, 4. Close document from the file menu. 
+
+\begin{figure}
+\scaledgraphics{ac6867d5-af90-4fcf-baf6-f48ad34c0de7.png}{1}
+\caption*{Photo 3: Create document and add a title, then close in the file menu}\label{F72135581}
+\end{figure}
+
+\begin{figure}
+\scaledgraphics{c6cd4404-ce9f-4c61-bbfe-cfc12b71dae7.png}{1}
+\caption*{Photo 4: Adding documents to be used in your book}\label{F35194901}
+\end{figure}
+
+
+You now have the basic book sections, and we can move onto creating the Fidus Writer book container.
+
+
+\subsection{3. Create a Fidus Writer book}\label{H642923}
+
+
+
+A Fidus Writer Book collects together a series of Fidus Writer documents. Here we will create a book and add your docs that you have just created, as well as carry our some basic configurations of the book.
+
+
+Navigate to the Book section of the website.
+
+\begin{figure}
+\scaledgraphics{d9710098-1829-44a3-b890-3fc28fe6ac91.png}{1}
+\caption*{Photo 5: Create a Fidus Writer Book. Navigate to the book section, use create book on the left}\label{F94386831}
+\end{figure}
+
+
+Click 'Create new book'. You will be show a book dialogue box with a number of tabs: Basic information, Sections, Bibliography, Epub, Print / PDF, Validation, and Git repo.B
+
+
+To start with you will only complete a few settings, you can return later to complete all of the book setup. Here we will fill out the title and add your documents.
+
+
+1. Insert the book title in the Basic info tab.
+
+\begin{figure}
+\scaledgraphics{68440cbf-3463-417e-83a5-cd6a29532c0b.png}{1}
+\caption*{Photo 6: Add book information, add book title to start with}\label{F90195231}
+\end{figure}
+
+
+2. Add documents. To add your documents move to the 'Sections' tab. Here you will see your Documents listed on the left, at the top your newly created 'folder'. Click the folder to display its contents. You can add your documents to the book by selecting them and clicking on the arrow in the middle to add them to the right column. Now save your book. The dialogue box will now close, and you will see your book listed in the Book section of the site.
+
+\begin{figure}
+\scaledgraphics{a78ac1eb-85d0-4bf2-b732-94be1691dd6a.png}{1}
+\caption*{Photo 7: Select Chapters tab, add documents from your folder - left to te right column to be in your book. Then save}\label{F16811081}
+\end{figure}
+
+
+You can return later to complete all the book settings.
+
+
+Your book is now ready to be connected to Git for outputting.
+
+
+\subsection{4. Connecting your Fidus Book to a Git repo}\label{H8269040}
+
+
+
+This part of the process only needs to be carried out by publication managers or users who will be outputting to Git. If the Git repo is public then any user will be able to see the saved content without any login credentials. Repos can be made private or access only given to specific users or groups of users.
+
+
+You need to have created your Git repo in advance which is covered in Step 1., of the guide, this will repo will be where you output your publication files too.
+
+
+First we will connect Fidus Writer with the Git instance you are using, this is done by authorizing Git to connect with Fidus Writer using you user accounts on both systems.
+
+
+\subsubsection{Connect platforms}\label{H5660938}
+
+
+
+1. Make sure you are logged into Git and Fidus Writer.
+
+
+2. From the Fidus Writer homepage navigate to your user profile at the top right and click on your username, this will take you to your user profile page where you can connect with your Git instance in the 'social accounts area'.
+
+
+3. Click Connect next to the Git instance you want to connect to.
+
+\begin{figure}
+\scaledgraphics{2254c214-1e83-4452-9c22-9ff847136c1c.png}{1}
+\caption*{Photo 8: Connect to Git}\label{F41047411}
+\end{figure}
+
+
+4. You will now be redirected to the Git website, you will need to log in if you haven't already done so.
+
+
+5. Then accept the authorization. This process connects your user accounts and allows the two systems to transfer your publication files.
+
+
+The connection process is now complete, and we will now select the repo for your book.
+
+
+\subsubsection{Select repo}\label{H5346176}
+
+
+
+1. Navigate to your book and click on it to open the book dialogue box. Click on the Git repository tab on the right.
+
+\begin{figure}
+\scaledgraphics{4b4e00ad-cd99-40b1-bb1e-5689bafe807a.png}{1}
+\caption*{Photo 9: Select repo to use and save. Reload if repo you want is not available}\label{F77242471}
+\end{figure}
+
+
+2. Click 'Refresh' on the right to get your list of repos from Git. The repos will now be available in the drop-down menu.
+
+
+3. Select your repo from the list, then below the output types you need should be checked, and click save. Export format options are: EPUB export, Unpacked EPUB export, HTML export, Export Unified HTML, LaTeX export. As default, you only require EPUB and Unified HTML. PDF will be uploaded manually - instructions are in the output your book as multi-format section.
+
+
+4. You can now export your book to Git.  In the Git repository tab use the export button bottom right and select 'Export to Git repository'. A dialogue will appear asking for a Commit message, this is a note for this revision export.
+
+\begin{figure}
+\scaledgraphics{3936dcb7-7576-45c8-9a91-2340d2e18fb8.png}{1}
+\caption*{Photo 10: Git export settings. Git tab; select repo; choose outputs, and; export}\label{F11158451}
+\end{figure}
+
+
+A message dialogue will appear bottom right. When the message 'Your Book has been successfully saved to Git' appears the process has finished. 
+
+\begin{figure}
+\scaledgraphics{8f55247e-9161-49d0-8688-0cbb8299ea13.png}{1}
+\caption*{Photo 11: Git export message - see bottom right-hand corner}\label{F8159591}
+\end{figure}
+
+
+You can now navigate to Git and you will see your files on Git. That is the end of this process.
+
+\begin{figure}
+\scaledgraphics{d80dc5a5-d385-4a3b-a03a-a752ff2686c9.png}{1}
+\caption*{Photo 12: Your publication outputted to Git}\label{F54557401}
+\end{figure}
+
+
+\subsection{Next steps}\label{H6619707}
+
+
+
+You can now invite your team to access the publication on Fidus Writer.
 
 \end{document}

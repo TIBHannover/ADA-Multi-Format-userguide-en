@@ -9,12 +9,8 @@
   <navMap>
 
     <!-- 2.01 NCX: playOrder is optional -->
-    <navPoint id="t0">
-      <navLabel><text>Vorderseite</text></navLabel>
-      <content src="cover.xhtml#cover" />
-    </navPoint>
     <navPoint id="t1">
-      <navLabel><text>Titelseite</text></navLabel>
+      <navLabel><text>Title page</text></navLabel>
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
@@ -57,248 +53,248 @@
         <content src="document-1.xhtml#H6425485" />
       </navPoint>
     </navPoint>
-    <navPoint id="t0-2">
+    <navPoint id="t_2_0-2">
+      <navLabel><text>What You'll Need to Get Started</text></navLabel>
+      <content src="document-2.xhtml#_2_0" />
+      <navPoint id="tH8481455-2">
+        <navLabel><text>Publication contributor</text></navLabel>
+        <content src="document-2.xhtml#H8481455" />
+        <navPoint id="tH3214765-2">
+          <navLabel><text>Account creation</text></navLabel>
+          <content src="document-2.xhtml#H3214765" />
+          <navPoint id="tH8748576-2">
+            <navLabel><text>Fidus Writer</text></navLabel>
+            <content src="document-2.xhtml#H8748576" />
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="tH7576515-2">
+        <navLabel><text>Publication manager</text></navLabel>
+        <content src="document-2.xhtml#H7576515" />
+        <navPoint id="tH5792718-2">
+          <navLabel><text>Account creation</text></navLabel>
+          <content src="document-2.xhtml#H5792718" />
+          <navPoint id="tH8503334-2">
+            <navLabel><text>Fidus Writer</text></navLabel>
+            <content src="document-2.xhtml#H8503334" />
+          </navPoint>
+          <navPoint id="tH4652413-2">
+            <navLabel><text>Git</text></navLabel>
+            <content src="document-2.xhtml#H4652413" />
+            <navPoint id="tH3758785-2">
+              <navLabel><text>GitLab account</text></navLabel>
+              <content src="document-2.xhtml#H3758785" />
+            </navPoint>
+            <navPoint id="tH2690045-2">
+              <navLabel><text>GitHub account</text></navLabel>
+              <content src="document-2.xhtml#H2690045" />
+            </navPoint>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_3_0-3">
+      <navLabel><text>Pipeline Advantages</text></navLabel>
+      <content src="document-3.xhtml#_3_0" />
+    </navPoint>
+    <navPoint id="t0-4">
       <navLabel><text>Four Step Process</text></navLabel>
-      <content src="document-2.xhtml" />
-      <navPoint id="t_2_0-2">
-        <navLabel><text>Step 1: Make a Publication Git Repository and Website</text></navLabel>
-        <content src="document-2.xhtml#_2_0" />
-        <navPoint id="tH4018151-2">
-          <navLabel><text>About</text></navLabel>
-          <content src="document-2.xhtml#H4018151" />
-        </navPoint>
-        <navPoint id="tH1473428-2">
-          <navLabel><text>Step-by-step guide</text></navLabel>
-          <content src="document-2.xhtml#H1473428" />
-          <navPoint id="tH2479402-2">
-            <navLabel><text>Create a repo</text></navLabel>
-            <content src="document-2.xhtml#H2479402" />
-          </navPoint>
-          <navPoint id="tH9225084-2">
-            <navLabel><text>Create a website</text></navLabel>
-            <content src="document-2.xhtml#H9225084" />
-          </navPoint>
-        </navPoint>
-        <navPoint id="tH4342812-2">
-          <navLabel><text>Step 1 completion: What's next?</text></navLabel>
-          <content src="document-2.xhtml#H4342812" />
-        </navPoint>
-      </navPoint>
-      <navPoint id="t_3_0-3">
-        <navLabel><text>Step 2: Create a Book Project in Fidus Writer</text></navLabel>
-        <content src="document-3.xhtml#_3_0" />
-        <navPoint id="tH4535132-3">
-          <navLabel><text>What's covered here</text></navLabel>
-          <content src="document-3.xhtml#H4535132" />
-        </navPoint>
-        <navPoint id="tH4439255-3">
-          <navLabel><text>1. Create a 'personal' folder</text></navLabel>
-          <content src="document-3.xhtml#H4439255" />
-        </navPoint>
-        <navPoint id="tH8214025-3">
-          <navLabel><text>2. Create placeholder documents</text></navLabel>
-          <content src="document-3.xhtml#H8214025" />
-          <navPoint id="tH7006285-3">
-            <navLabel><text>How to create documents</text></navLabel>
-            <content src="document-3.xhtml#H7006285" />
-          </navPoint>
-        </navPoint>
-        <navPoint id="tH642923-3">
-          <navLabel><text>3. Create a Fidus Writer book</text></navLabel>
-          <content src="document-3.xhtml#H642923" />
-        </navPoint>
-        <navPoint id="tH8269040-3">
-          <navLabel><text>4. Connecting your book to a Git repo</text></navLabel>
-          <content src="document-3.xhtml#H8269040" />
-        </navPoint>
-        <navPoint id="tH6619707-3">
-          <navLabel><text>Next steps</text></navLabel>
-          <content src="document-3.xhtml#H6619707" />
-        </navPoint>
-      </navPoint>
+      <content src="document-4.xhtml" />
       <navPoint id="t_4_0-4">
-        <navLabel><text>Step 3: Invite Your Team</text></navLabel>
+        <navLabel><text>Step 1: Make a Publication Git Repository and Website</text></navLabel>
         <content src="document-4.xhtml#_4_0" />
-        <navPoint id="tH3777938-4">
-          <navLabel><text>1. Adding users as Contacts</text></navLabel>
-          <content src="document-4.xhtml#H3777938" />
+        <navPoint id="tH4018151-4">
+          <navLabel><text>About Git</text></navLabel>
+          <content src="document-4.xhtml#H4018151" />
         </navPoint>
-        <navPoint id="tH9350209-4">
-          <navLabel><text>2. Giving users access to edit documents</text></navLabel>
-          <content src="document-4.xhtml#H9350209" />
+        <navPoint id="tH1473428-4">
+          <navLabel><text>Step-by-step guide</text></navLabel>
+          <content src="document-4.xhtml#H1473428" />
+          <navPoint id="tH2479402-4">
+            <navLabel><text>Create a repo</text></navLabel>
+            <content src="document-4.xhtml#H2479402" />
+          </navPoint>
+          <navPoint id="tH9225084-4">
+            <navLabel><text>Create a GitHub/Lab Pages website</text></navLabel>
+            <content src="document-4.xhtml#H9225084" />
+            <navPoint id="tH383599-4">
+              <navLabel><text>Part 1: Turn on GitHub/Lab Pages website creation</text></navLabel>
+              <content src="document-4.xhtml#H383599" />
+            </navPoint>
+            <navPoint id="tH6708807-4">
+              <navLabel><text>Part 2: Display multi-format content to GitHub/Lab Pages</text></navLabel>
+              <content src="document-4.xhtml#H6708807" />
+            </navPoint>
+          </navPoint>
         </navPoint>
-        <navPoint id="tH6251349-4">
-          <navLabel><text>3. Sharing your book for view only and preview download</text></navLabel>
-          <content src="document-4.xhtml#H6251349" />
-        </navPoint>
-        <navPoint id="tH5018454-4">
-          <navLabel><text>Adding reviewer and editors to documents</text></navLabel>
-          <content src="document-4.xhtml#H5018454" />
-        </navPoint>
-        <navPoint id="tH4422568-4">
-          <navLabel><text>Next steps</text></navLabel>
-          <content src="document-4.xhtml#H4422568" />
+        <navPoint id="tH4342812-4">
+          <navLabel><text>Step 1 completion: What's next?</text></navLabel>
+          <content src="document-4.xhtml#H4342812" />
         </navPoint>
       </navPoint>
       <navPoint id="t_5_0-5">
-        <navLabel><text>Step 4: Publish as Multi‑format!</text></navLabel>
+        <navLabel><text>Step 2: Create a Book Project in Fidus Writer</text></navLabel>
         <content src="document-5.xhtml#_5_0" />
-        <navPoint id="tH6462932-5">
-          <navLabel><text>Output formats we'll cover here</text></navLabel>
-          <content src="document-5.xhtml#H6462932" />
+        <navPoint id="tH4535132-5">
+          <navLabel><text>What's covered here</text></navLabel>
+          <content src="document-5.xhtml#H4535132" />
         </navPoint>
-        <navPoint id="tH5954601-5">
-          <navLabel><text>Preview outputs</text></navLabel>
-          <content src="document-5.xhtml#H5954601" />
+        <navPoint id="tH4439255-5">
+          <navLabel><text>1. Create a 'personal' folder</text></navLabel>
+          <content src="document-5.xhtml#H4439255" />
         </navPoint>
-        <navPoint id="tH2238943-5">
-          <navLabel><text>Applying layout design styles and Git export</text></navLabel>
-          <content src="document-5.xhtml#H2238943" />
-        </navPoint>
-        <navPoint id="tH9093471-5">
-          <navLabel><text>Exporting PDF to Git</text></navLabel>
-          <content src="document-5.xhtml#H9093471" />
-        </navPoint>
-        <navPoint id="tH6290333-5">
-          <navLabel><text>Multi-format publishing configurations</text></navLabel>
-          <content src="document-5.xhtml#H6290333" />
-          <navPoint id="tH2167774-5">
-            <navLabel><text>Recommended minimum default output</text></navLabel>
-            <content src="document-5.xhtml#H2167774" />
+        <navPoint id="tH8214025-5">
+          <navLabel><text>2. Create placeholder documents</text></navLabel>
+          <content src="document-5.xhtml#H8214025" />
+          <navPoint id="tH7006285-5">
+            <navLabel><text>How to create documents</text></navLabel>
+            <content src="document-5.xhtml#H7006285" />
           </navPoint>
-          <navPoint id="tH6991098-5">
-            <navLabel><text>Creating print-on-demand publications</text></navLabel>
-            <content src="document-5.xhtml#H6991098" />
-            <navPoint id="tH855085-5">
-              <navLabel><text>Steps to enable Print-on-demand</text></navLabel>
-              <content src="document-5.xhtml#H855085" />
-            </navPoint>
+        </navPoint>
+        <navPoint id="tH642923-5">
+          <navLabel><text>3. Create a Fidus Writer book</text></navLabel>
+          <content src="document-5.xhtml#H642923" />
+        </navPoint>
+        <navPoint id="tH8269040-5">
+          <navLabel><text>4. Connecting your Fidus Book to a Git repo</text></navLabel>
+          <content src="document-5.xhtml#H8269040" />
+          <navPoint id="tH5660938-5">
+            <navLabel><text>Connect platforms</text></navLabel>
+            <content src="document-5.xhtml#H5660938" />
           </navPoint>
+          <navPoint id="tH5346176-5">
+            <navLabel><text>Select repo</text></navLabel>
+            <content src="document-5.xhtml#H5346176" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="tH6619707-5">
+          <navLabel><text>Next steps</text></navLabel>
+          <content src="document-5.xhtml#H6619707" />
         </navPoint>
       </navPoint>
-    </navPoint>
-    <navPoint id="t0-6">
-      <navLabel><text>Configurations</text></navLabel>
-      <content src="document-6.xhtml" />
       <navPoint id="t_6_0-6">
-        <navLabel><text>System Configurations and Settings</text></navLabel>
+        <navLabel><text>Step 3: Invite Your Team</text></navLabel>
         <content src="document-6.xhtml#_6_0" />
-        <navPoint id="tH9202894-6">
-          <navLabel><text>Introduction</text></navLabel>
-          <content src="document-6.xhtml#H9202894" />
+        <navPoint id="tH3777938-6">
+          <navLabel><text>1. Adding users as contacts</text></navLabel>
+          <content src="document-6.xhtml#H3777938" />
         </navPoint>
-        <navPoint id="tH3154410-6">
-          <navLabel><text>Fidus Writer</text></navLabel>
-          <content src="document-6.xhtml#H3154410" />
-          <navPoint id="tH1068085-6">
-            <navLabel><text>General</text></navLabel>
-            <content src="document-6.xhtml#H1068085" />
+        <navPoint id="tH9350209-6">
+          <navLabel><text>2. Giving users access to edit documents</text></navLabel>
+          <content src="document-6.xhtml#H9350209" />
+        </navPoint>
+        <navPoint id="tH6251349-6">
+          <navLabel><text>3. Sharing your book for view only and preview download</text></navLabel>
+          <content src="document-6.xhtml#H6251349" />
+        </navPoint>
+        <navPoint id="tH5018454-6">
+          <navLabel><text>Adding reviewer and editors to documents</text></navLabel>
+          <content src="document-6.xhtml#H5018454" />
+          <navPoint id="tH7032777-6">
+            <navLabel><text>Basic (contributors)</text></navLabel>
+            <content src="document-6.xhtml#H7032777" />
           </navPoint>
-          <navPoint id="tH1552973-6">
-            <navLabel><text>1. Documents</text></navLabel>
-            <content src="document-6.xhtml#H1552973" />
-            <navPoint id="tH2380763-6">
-              <navLabel><text>Document view</text></navLabel>
-              <content src="document-6.xhtml#H2380763" />
+          <navPoint id="tH2377842-6">
+            <navLabel><text>Review</text></navLabel>
+            <content src="document-6.xhtml#H2377842" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="tH4422568-6">
+          <navLabel><text>Next steps</text></navLabel>
+          <content src="document-6.xhtml#H4422568" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="t_7_0-7">
+        <navLabel><text>Step 4: Publish as Multi-format !</text></navLabel>
+        <content src="document-7.xhtml#_7_0" />
+        <navPoint id="tH6462932-7">
+          <navLabel><text>Output formats we'll cover here</text></navLabel>
+          <content src="document-7.xhtml#H6462932" />
+        </navPoint>
+        <navPoint id="tH5954601-7">
+          <navLabel><text>Preview outputs</text></navLabel>
+          <content src="document-7.xhtml#H5954601" />
+        </navPoint>
+        <navPoint id="tH2238943-7">
+          <navLabel><text>Applying layout design styles and Git export</text></navLabel>
+          <content src="document-7.xhtml#H2238943" />
+          <navPoint id="tH4518313-7">
+            <navLabel><text>Choose multi-format style</text></navLabel>
+            <content src="document-7.xhtml#H4518313" />
+          </navPoint>
+          <navPoint id="tH2562599-7">
+            <navLabel><text>Add an e-book cover</text></navLabel>
+            <content src="document-7.xhtml#H2562599" />
+          </navPoint>
+          <navPoint id="tH4535667-7">
+            <navLabel><text>Export to Git</text></navLabel>
+            <content src="document-7.xhtml#H4535667" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="tH9093471-7">
+          <navLabel><text>Exporting PDF to Git</text></navLabel>
+          <content src="document-7.xhtml#H9093471" />
+        </navPoint>
+        <navPoint id="tH6290333-7">
+          <navLabel><text>Multi-format publishing configurations</text></navLabel>
+          <content src="document-7.xhtml#H6290333" />
+          <navPoint id="tH2167774-7">
+            <navLabel><text>Recommended minimum default output to Git</text></navLabel>
+            <content src="document-7.xhtml#H2167774" />
+          </navPoint>
+          <navPoint id="tH6991098-7">
+            <navLabel><text>Creating print-on-demand publications</text></navLabel>
+            <content src="document-7.xhtml#H6991098" />
+            <navPoint id="tH855085-7">
+              <navLabel><text>Steps to enable Print-on-demand</text></navLabel>
+              <content src="document-7.xhtml#H855085" />
             </navPoint>
-            <navPoint id="tH7829280-6">
-              <navLabel><text>Document manager view</text></navLabel>
-              <content src="document-6.xhtml#H7829280" />
-            </navPoint>
           </navPoint>
-        </navPoint>
-        <navPoint id="tH6665750-6">
-          <navLabel><text>Books</text></navLabel>
-          <content src="document-6.xhtml#H6665750" />
-          <navPoint id="tH7619734-6">
-            <navLabel><text>Automatically generated parts of a book</text></navLabel>
-            <content src="document-6.xhtml#H7619734" />
-          </navPoint>
-          <navPoint id="tH3989750-6">
-            <navLabel><text>Book setting and configurations</text></navLabel>
-            <content src="document-6.xhtml#H3989750" />
-          </navPoint>
-          <navPoint id="tH9336653-6">
-            <navLabel><text>Images</text></navLabel>
-            <content src="document-6.xhtml#H9336653" />
-          </navPoint>
-          <navPoint id="tH6668129-6">
-            <navLabel><text>References</text></navLabel>
-            <content src="document-6.xhtml#H6668129" />
-          </navPoint>
-        </navPoint>
-        <navPoint id="tH7350400-6">
-          <navLabel><text>Templates</text></navLabel>
-          <content src="document-6.xhtml#H7350400" />
-        </navPoint>
-        <navPoint id="tH8460509-6">
-          <navLabel><text>User account</text></navLabel>
-          <content src="document-6.xhtml#H8460509" />
-        </navPoint>
-        <navPoint id="tH4807452-6">
-          <navLabel><text>Administration</text></navLabel>
-          <content src="document-6.xhtml#H4807452" />
-        </navPoint>
-        <navPoint id="tH5511626-6">
-          <navLabel><text>Styles</text></navLabel>
-          <content src="document-6.xhtml#H5511626" />
-        </navPoint>
-        <navPoint id="tH6892689-6">
-          <navLabel><text>Exporters</text></navLabel>
-          <content src="document-6.xhtml#H6892689" />
-        </navPoint>
-        <navPoint id="tH8001298-6">
-          <navLabel><text>Contacts and sharing</text></navLabel>
-          <content src="document-6.xhtml#H8001298" />
-          <navPoint id="tH3072165-6">
-            <navLabel><text>How to share documents</text></navLabel>
-            <content src="document-6.xhtml#H3072165" />
-          </navPoint>
-          <navPoint id="tH3372306-6">
-            <navLabel><text>How to share books</text></navLabel>
-            <content src="document-6.xhtml#H3372306" />
-          </navPoint>
-        </navPoint>
-        <navPoint id="tH7934822-6">
-          <navLabel><text>GitLab Community Edition (GitLab CE)</text></navLabel>
-          <content src="document-6.xhtml#H7934822" />
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="t0-7">
+    <navPoint id="t0-8">
       <navLabel><text>Publication Info</text></navLabel>
-      <content src="document-7.xhtml" />
-      <navPoint id="t_7_0-7">
+      <content src="document-8.xhtml" />
+      <navPoint id="t_8_0-8">
         <navLabel><text>About the Guide</text></navLabel>
-        <content src="document-7.xhtml#_7_0" />
-        <navPoint id="tH8229716-7">
+        <content src="document-8.xhtml#_8_0" />
+        <navPoint id="tH8229716-8">
           <navLabel><text>Description</text></navLabel>
-          <content src="document-7.xhtml#H8229716" />
+          <content src="document-8.xhtml#H8229716" />
         </navPoint>
-        <navPoint id="tH5465299-7">
+        <navPoint id="tH5465299-8">
           <navLabel><text>Contributors</text></navLabel>
-          <content src="document-7.xhtml#H5465299" />
+          <content src="document-8.xhtml#H5465299" />
         </navPoint>
-        <navPoint id="tH2281570-7">
+        <navPoint id="tH2281570-8">
           <navLabel><text>Technical credits</text></navLabel>
-          <content src="document-7.xhtml#H2281570" />
-          <navPoint id="tH2431584-7">
+          <content src="document-8.xhtml#H2281570" />
+          <navPoint id="tH2431584-8">
             <navLabel><text>Layout design style</text></navLabel>
-            <content src="document-7.xhtml#H2431584" />
+            <content src="document-8.xhtml#H2431584" />
           </navPoint>
-          <navPoint id="tH3168740-7">
+          <navPoint id="tH3168740-8">
             <navLabel><text>Images</text></navLabel>
-            <content src="document-7.xhtml#H3168740" />
+            <content src="document-8.xhtml#H3168740" />
           </navPoint>
-          <navPoint id="tH649993-7">
+          <navPoint id="tH649993-8">
             <navLabel><text>Fonts</text></navLabel>
-            <content src="document-7.xhtml#H649993" />
+            <content src="document-8.xhtml#H649993" />
           </navPoint>
-          <navPoint id="tH319315-7">
+          <navPoint id="tH319315-8">
             <navLabel><text>Open source software</text></navLabel>
-            <content src="document-7.xhtml#H319315" />
+            <content src="document-8.xhtml#H319315" />
           </navPoint>
         </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="t0-9">
+      <navLabel><text>Appendix</text></navLabel>
+      <content src="document-9.xhtml" />
+      <navPoint id="t_9_0-9">
+        <navLabel><text>Glossary</text></navLabel>
+        <content src="document-9.xhtml#_9_0" />
       </navPoint>
       <navPoint id="t2">
         <navLabel><text>Copyright</text></navLabel>
